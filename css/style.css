@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 180px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 30px;
+	border: 1px solid transparent;
+	transition: 0.4s ease;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: white;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 25px;
+	margin-left: 80px;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title2{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+
+.title h2{
+	color: white;
+	font-size: 25px;
+}
+
+.title h3{
+	color: white;
+	font-size: 55px;
+	text-align: center;
+}
+
+.title h4{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.title2 h1{
+	color: white;
+	font-size: 68px;
+	text-align: center;
+}
+
+.title2 h2{
+	color: white;
+	font-size: 23px;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #990099;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.arrowleft img{
+	position: absolute;
+	top: 90%;
+	right: 85%;
+	transform: translate(-50%,-50%);
+	width: 130px;
+	height: auto;
+}
+
+.arrowright img{
+	position: absolute;
+	top: 90%;
+	left: 94%;
+	transform: translate(-50%,-50%);
+	width: 130px;
+	height: auto;
+}
+
+.everycar img{
+	width: 30%;
+	position: absolute; 
+	left: 50%;
+	top: 31%;
+	transform: translate(-50%,-50%);
+}
+
+audio {
+width: 250px;
+height: 45px;
+position: absolute; 
+	left: 92%;
+	top: 95%;
+	transform: translate(-50%,-50%);
+}
+
+audio::-webkit-media-controls-mute-button {
+display: none !important;
+}
+
+audio::-webkit-media-controls-volume-slider {
+display: none !important;
+}
+
+audio::-webkit-media-controls-volume-control-container.closed {
+display: none !important;
+}
+audio::-webkit-media-controls-volume-control-container{
+display: none !important;
+}
+
+.mapallign {
+	position: absolute; 
+	left: 88%;
+	top: 55%;
+	transform: translate(-50%,-50%);
+}
