@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script defer src="node_modules/swup/dist/swup.min.js"></script> 
+<script defer src= "js/script.js"></script>
 <title>Japanese Cars</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -11,19 +13,25 @@
 		     <img src="image/logo.png">
 		 </div>
 	     	 <ul> 
-		       <li><a href="index.html">Home</a></li>
-			     <li><a href="jcc.html">JCC</a></li>
-			     <li><a href="cars.html">Cars</a></li>
-			     <li><a href="about.html">About</a></li>
-			     <li class="active"><a href="contact.html">Contact</a></li>
+		       <li><a href="/index.html">Home</a></li>
+			     <li><a href="/jcc.html">JCC</a></li>
+			     <li><a href="/cars.html">Cars</a></li>
+			     <li><a href="/about.html">About</a></li>
+			     <li><a href="/contact.html">Contact</a></li>
 		     </ul> 
 	 </div>
+	 <main id= "swup" class= "transition-fade">
 	 <div class="title">
 	     <h3>Cosma Catalin</h3>
 	     <h4>Phone:<a href="tel:0749827508" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"> 0749827508<p class="call-button"></p></a></h4>	
 	     <h4>Email:<a href="mailto:cata.cosma@outlook.com"> cata.cosma@outlook.com</a></h4>
 	     <h4>Instagram:<a href="https://www.instagram.com/catalincosma/"> @catalincosma</a></h4>
 	 </div>
+	 </main>
    </header>
+   <audio controls> 
+	<source src="audio/breakuself.ogg" type="audio/ogg"> 
+	<source src="audio/breakuself.mp3" type="audio/mpeg"> 
+</audio>
 </body>
 </html>

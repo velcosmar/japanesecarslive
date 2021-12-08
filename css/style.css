@@ -156,7 +156,7 @@ audio {
 width: 250px;
 height: 45px;
 position: absolute; 
-	left: 92%;
+	left: 50%;
 	top: 95%;
 	transform: translate(-50%,-50%);
 }
@@ -189,4 +189,19 @@ display: none !important;
 	left: 50%;
 	top: 85%;
 	transform: translate(-50%,-50%);
+}
+
+.transition-fade {
+	opacity: 1;
+	transition: 500ms;
+	transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+	opacity: 0;
+}
+
+html.is-leaving .transition-fade {
+	opacity: 0;
+
 }
