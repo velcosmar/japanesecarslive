@@ -4,7 +4,7 @@ Keep in mind this is a project for a school exam.
 
 # How To Access
 
-go to www.japanese-cars.rf.gd or www.velcosmar.rf.gd (www.japanese-cars.live) in your web browser.
+go to www.japanese-cars.live (another links: www.japanese-cars.rf.gd or www.velcosmar.rf.gd) in your web browser.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
