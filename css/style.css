@@ -205,3 +205,32 @@ html.is-leaving .transition-fade {
 	opacity: 0;
 
 }
+
+button {   
+       background-color: #32416C;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px #32416C;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+   
+.container {   
+        padding: 25px;   
+        background-color: black;  
+    }   
